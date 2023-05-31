@@ -5,7 +5,6 @@
   "description": "Format a Markdown text into Jira markup.",
   "icon": "icon.png",
   "author": "theo_brlle",
-  "owner": "theo-brlle",
   "categories": [
     "Documentation",
     "Productivity"
