@@ -3,24 +3,25 @@
   "name": "markdown-to-jira",
   "title": "Markdown to Jira",
   "description": "Format a Markdown text into Jira markup.",
-  "icon": "command-icon.png",
+  "icon": "icon.png",
   "author": "theo_brlle",
   "owner": "theo-brlle",
   "categories": [
-    "Documentation"
+    "Documentation",
+    "Productivity"
   ],
   "license": "MIT",
   "commands": [
     {
-      "name": "index",
+      "name": "markdown-to-jira",
       "title": "Markdown to Jira",
-      "subtitle": "Format Markdown text to Jira markup",
       "description": "Format a Markdown text into Jira markup.",
       "mode": "no-view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.52.1"
+    "@raycast/api": "^1.52.1",
+    "jira2md": "^3.0.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "1.0.5",
